@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
     font-family: 'KNPSKkomi-Regular00';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KNPSKkomi-Regular00.woff') format('woff');
@@ -39,9 +41,13 @@
     25%{left: 500px;}
     50%{left: -1500px;}
     75%{left: -2000px;}
-    100%{left: 4000px;}
+    100%{left: -2000px;}
 }
 
+div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video{
+    margin: 0;
+    padding: 0;
+}
 
 *{
     margin: 0;
