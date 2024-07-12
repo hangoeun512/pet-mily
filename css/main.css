@@ -71,7 +71,7 @@ body {
 }
 
 #wrap{
-    min-width: 1320px;
+    min-width: 1400px;
 }
 
 /* hader */
@@ -109,13 +109,14 @@ body {
 
 /* banner */
 
+#banner{
+    position: relative;
+}
+
 .inner_banner{
-    height: 991px;
+    height: 990px;
     margin: 0 auto;
     background: url(../img/main_img/main_img.png) no-repeat center;
-    position: relative;
-    top: -5px;
-    z-index: 99;
 }
 
 .banner_img{
@@ -124,8 +125,10 @@ body {
     height: 850px;
     background: url(../img/main_img/banner_img1.png) no-repeat center;
     animation: banner_img 20s infinite;
-    position: relative;
-    top: -990px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -660px;
     z-index: 50;
 }
 
@@ -135,8 +138,11 @@ body {
 #new_item{
     width: 1320px;
     margin: 0 auto;
-    position: relative;
-    top: -760px;
+
+}
+
+.new_item_inner{
+    margin: 120px 0;
 }
 
 .item_text{
@@ -164,8 +170,6 @@ body {
 #PROMOTION{
     width: 1320px;
     margin: 0 auto;
-    position: relative;
-    top: -650px;
 }
 
 .main_text1{
@@ -297,21 +301,25 @@ body {
     color: #3D77AA;
 }
 
+#Animation{
+        overflow: hidden;
+        position: relative;
+        height: 400px;
+}
+
 .Animation_inner{
     position: absolute;
-    top: 2700px;
+    top: 0px;
     width: 1320px;
-    overflow: hidden;
+
     animation: action 10s infinite;
 }
 
 #main_banner{
     margin: 0 auto;
-    width: 1920px;
     height: 530px;
     background: url(../img/main_img/main_banner_img.png) no-repeat center;
-    position: relative;
-    top: -100px;
+
 }
 
 #video{
@@ -333,25 +341,26 @@ body {
     left: -40px;
 }
 
-.inner_footer{
-    position: relative;
-    top: 900px;
-    left: 250px;
+#footer{
+    background: url(../img/main_img/footer.png) no-repeat center bottom;
     color: #fff;
+
+}
+
+.inner_footer{
+    width: 1320px;
+    margin: 0 auto;
+
 }
 
 .footer_link{
     display: flex;
-    padding-bottom: 10px;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    height: 925px;
+    box-sizing: border-box;
 }
 
 .footer_link li{
     margin-right: 20px;
-}
-
-.footer_img{
-    background: url(../img/main_img/footer.png) no-repeat center;
-    margin: 0 auto;
-    width: 1908px;
-    height: 925px;
 }
