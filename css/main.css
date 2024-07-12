@@ -334,11 +334,12 @@ body {
 
 .button_box1{
     display: flex;
+    justify-content: space-around;
 }
 .button_box2{
     display: flex;
     position: relative;
-    left: -40px;
+    justify-content: space-around;
 }
 
 #footer{
@@ -350,7 +351,7 @@ body {
 .inner_footer{
     width: 1320px;
     margin: 0 auto;
-
+    padding-bottom: 100px;
 }
 
 .footer_link{
