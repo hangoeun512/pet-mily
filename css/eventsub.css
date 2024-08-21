@@ -109,17 +109,16 @@ body {
 .inner_header {
     width: 1320px;
     margin: 0 auto;
-    position: relative;
 }
 
 .header_text {
-    position: absolute;
+    position: relative;
     line-height: 73px;
-    color: #80AB53;
+    color: #4674B9;
     font-size: 25px;
-    text-align: right;
+    text-align: left;
     top: 80px;
-    right: 0;
+    left: 70px;
     font-family: 'yg-jalnan';
 }
 
@@ -923,28 +922,4 @@ swiper-container .swiper-notification {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden
-}
-
-#footer{
-    background: url(../img/about_img/sub_footer.png) no-repeat center bottom;
-    color: #fff;
-
-}
-
-.inner_footer{
-    width: 1320px;
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
-
-.footer_link{
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 40px;
-    height: 925px;
-    box-sizing: border-box;
-}
-
-.footer_link li{
-    margin-right: 20px;
 }

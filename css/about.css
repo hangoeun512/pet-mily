@@ -64,6 +64,7 @@ body {
     margin: 0 auto;
     background: url(../img/about_img/top.png) no-repeat center;
     font-family: 'KNPSKkomi-Regular00';
+    overflow: hidden;
 }
 
 .inner_header{
@@ -119,6 +120,8 @@ body {
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    height: 2180px;
+    background: url(../img/about_img/Character.png) no-repeat center;
 }
 
 .inner_Character p{
