@@ -172,9 +172,9 @@ body {
     color: #539CD8;
 }
 
-/* .product_img3{
+.product_img3{
     position: relative;
-    top: -200px;
+    top: -300px;
 }
 
 .product_text3{
@@ -394,4 +394,4 @@ body {
 
 .footer_link li{
     margin-right: 20px;
-} */
+}
